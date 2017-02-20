@@ -69,6 +69,11 @@ p {
     padding: 0;
 }
 
+ul.skills li:before {
+    content: "•";
+    font-size: 170%;
+}
+
 ul.skills li {
     display: inline;
     margin-right: 59px;
