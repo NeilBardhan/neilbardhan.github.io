@@ -20,26 +20,29 @@ a:hover {
     text-decoration: underline;
     color: #1870A0;
 }
-h1,{
+h1 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-h2,{
+h2 {
     font-size: 1.75em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-h3,{
+h3 {
     font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-ul,{
+ul {
     font-size: 1.2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+hr {
+    color: #ffebc1
+}
 p {
     font-size: 1.2em;
     line-height: 1.2em;
