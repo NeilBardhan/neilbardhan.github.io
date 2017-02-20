@@ -71,12 +71,12 @@ p {
 
 ul.skills li:before {
     content: "•";
-    font-size: 1.75em;
+    font-size: 2em;
 }
 
 ul.skills li {
     display: inline;
-    margin-right: 59px;
+    margin-right: 49px;
 }
 
 ul.skills{
