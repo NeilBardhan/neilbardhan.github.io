@@ -77,6 +77,7 @@ ul.skills li {
 ul.skills{
     float: left;
     padding: 0;
+    width:80%;
 }
 
 p.blurb {
