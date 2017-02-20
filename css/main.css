@@ -67,6 +67,14 @@ p.blurb {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: justify;
 }
+
+#toc, .toc{
+    display:table;
+    padding:7px;
+    border:1px solid #a2a9b1;
+    background-color: #f8f9fa;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: 1em;
