@@ -45,11 +45,13 @@ h4 {
     color:#808080;
     font-size: 1.25em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin-bottom: 0px;
 }
 
 ul {
     font-size: 1.15em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin-top:10px;
 }
 
 }
