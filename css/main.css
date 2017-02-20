@@ -40,6 +40,12 @@ ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+ul.skills {
+    text-align: center;
+    font-size: 1.2em;
+    display: inline;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
 hr {
     color: #ffebc1
 }
