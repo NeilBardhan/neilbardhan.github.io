@@ -70,8 +70,13 @@ p {
 
 ul.skills li {
     display: inline;
-    margin-right: 40px;
+    margin-right: 54px;
 }
+
+ul.skills{
+    float: left;
+}
+
 p.blurb {
     font-size: 1.2em;
     line-height: 1.4em;
