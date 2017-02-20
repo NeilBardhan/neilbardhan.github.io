@@ -26,11 +26,13 @@ h1 {
 }
 
 h2 {
+    color:#303030;
     font-size: 1.75em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 h3 {
+    color:#606060;
     font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -42,12 +44,12 @@ ul {
 
 }
 hr {
-    color: #ffebc1
+    color: #B0B0B0;
 }
 p {
     font-size: 1.2em;
     line-height: 1.25em;
-    color: #333;
+    color: #484848;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: justify;
 }
@@ -55,7 +57,7 @@ p {
 p.blurb {
     font-size: 1.2em;
     line-height: 1.4em;
-    color: #333;
+    color: #484848;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: justify;
 }
