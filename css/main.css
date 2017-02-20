@@ -70,9 +70,10 @@ p.blurb {
 
 #toc, .toc{
     display:table;
-    padding:7px;
+    padding:10px;
     border:1px solid #a2a9b1;
     background-color: #f8f9fa;
+    font:90%;
 }
 
 footer {
