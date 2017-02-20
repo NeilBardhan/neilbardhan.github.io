@@ -71,7 +71,7 @@ p {
 
 ul.skills li:before {
     content: "•";
-    font-size: 1.15em;
+    font-size: 1.75em;
 }
 
 ul.skills li {
