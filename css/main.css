@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0px auto;
     padding: 0;
     box-sizing:border-box;
 }
@@ -60,6 +60,8 @@ p {
     color: #484848;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: justify;
+    margin: 0;
+    padding: 0;
 }
 
 p.blurb {
