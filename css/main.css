@@ -68,8 +68,9 @@ p {
     padding: 0;
 }
 
-ul.skills {
+#skills, .skills {
     display: inline;
+    margin-right: 10px;
 }
 p.blurb {
     font-size: 1.2em;
