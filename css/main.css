@@ -68,7 +68,7 @@ p {
     padding: 0;
 }
 
-ul.skills {
+ul.skills li {
     display: inline;
     margin-right: 10px;
 }
