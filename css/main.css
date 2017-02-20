@@ -71,13 +71,11 @@ p {
 
 ul.skills li {
     display: inline;
-    margin-right: 54px;
+    margin-right: 59px;
 }
 
 ul.skills{
-    float: left;
     padding: 0;
-    width:100%;
 }
 
 p.blurb {
