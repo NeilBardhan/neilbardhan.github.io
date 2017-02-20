@@ -68,6 +68,9 @@ p {
     padding: 0;
 }
 
+ul.skills {
+    display: inline;
+}
 p.blurb {
     font-size: 1.2em;
     line-height: 1.4em;
