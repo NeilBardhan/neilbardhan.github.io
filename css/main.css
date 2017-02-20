@@ -71,6 +71,7 @@ p.blurb {
     color: #484848;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: justify;
+    margin: 20px;
 }
 
 #toc, .toc{
