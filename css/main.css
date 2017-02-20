@@ -70,8 +70,8 @@ p {
 }
 
 ul.skills li:before {
-    content: "•";
-    font-size: 170%;
+    content: "• ";
+    font-size: 100%;
 }
 
 ul.skills li {
