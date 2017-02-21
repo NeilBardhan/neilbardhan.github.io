@@ -101,8 +101,8 @@ p.blurb {
 
 #toc, .toc{
     display:table;
-    padding:10px;
-    border:1px solid #a2a9b1;
+    padding:15px;
+    border:2px dashed #a2a9b1;
     background-color: #f8f9fa;
     font-size: 90%;
 }
