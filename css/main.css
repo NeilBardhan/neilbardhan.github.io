@@ -71,6 +71,7 @@ p {
     text-align: justify;
     margin: 0;
     padding: 0;
+    margin-bottom: 20px;
 }
 
 ul.skills li:before {
