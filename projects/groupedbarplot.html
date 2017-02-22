@@ -1,68 +1,82 @@
 <!DOCTYPE html>
+
+<html lang = "en">
 <meta charset="utf-8">
-<title>Fentanyl Deaths 2014 & 2015</title>
-<style>
-    body {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        width: 1080px;
-        height: 720px;
-        position: relative;
-    }
-    svg {
-        width: 100%;
-        height: 100%;
-        position: center;
-    }
 
-    .bar:hover {
+<head>
+    <title>Fentanyl Deaths 2014 & 2015</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            width: 1080px;
+            height: 720px;
+            position: relative;
+        }
+    
+        svg {
+            width: 100%;
+            height: 100%;
+            position: center;
+        }
+
+        .bar:hover {
             fill: brown;
-    }
+        }
 
-    .toolTip {
-        background: brown;
-        color: white;
-        display: none;
-        font-size: 16px;
-        left: 100px;
-        padding: 10px;
-        position: absolute;
-        text-align: center;
-        top: 95px;
-        width: 150px;
-        border: black;
-        border-width: 2px;
-    }
-    .legend {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 60%;
-    }
-    text {
-        font: 10px sans-serif;
-    }
-    .axis text {
-        font: 10px sans-serif;
-    }
-    .axis path{
-        fill: none;
-        stroke: #000;
-    }
-    .axis line {
-        fill: none;
-        stroke: #000;
-        shape-rendering: crispEdges;
-    }
-    .axis .tick line {
-        stroke-width: 1;
-        stroke: rgba(0, 0, 0, 0.2);
-    }
-    .x.axis path {
-        display: none;
-    }
-</style>
+        .toolTip {
+            background: brown;
+            color: white;
+            display: none;
+            font-size: 16px;
+            left: 100px;
+            padding: 10px;
+            position: absolute;
+            text-align: center;
+            top: 95px;
+            width: 150px;
+            border: black;
+            border-width: 2px;
+        }
+        
+        .legend {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 60%;
+        }
+        
+        text {
+            font: 10px sans-serif;
+        }
+        
+        .axis text {
+            font: 10px sans-serif;
+        }
+        
+        .axis path{
+            fill: none;
+            stroke: #000;
+        }
+    
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+    
+        .axis .tick line {
+            stroke-width: 1;
+            stroke: rgba(0, 0, 0, 0.2);
+        }
+        
+        .x.axis path {
+            display: none;
+        }
+    </style>
+</head>
+    
 <body>
 
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script>
 
     dataset = [
         {label:"CT", "2014": 94, "2015": 211},
@@ -236,5 +250,6 @@
             .style("font-size", "16px") 
             .style("text-decoration", "underline")  
             .text("Fentanyl Overdose Deaths 2014-15 in the most significantly affected states");
-</script>
+    </script>
 </body>
+</html>
