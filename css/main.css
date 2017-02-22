@@ -105,6 +105,7 @@ p.blurb {
     border:2px dashed #a2a9b1;
     background-color: #f8f9fa;
     font-size: 90%;
+    border-radius: 10px;
 }
 
 footer {
