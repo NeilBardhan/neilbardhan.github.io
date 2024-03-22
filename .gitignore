@@ -3,5 +3,7 @@ _layouts/
 images/
 projects/
 *.pdf
+*.jpg
+*.png
 _config.yml
 CNAME
